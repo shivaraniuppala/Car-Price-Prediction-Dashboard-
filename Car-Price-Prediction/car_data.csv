@@ -1,0 +1,13 @@
+csv_content = """Year,Mileage,FuelType,Price
+2018,30000,Petrol,600000
+2017,40000,Diesel,550000
+2020,15000,Petrol,850000
+2019,25000,Diesel,700000
+2016,50000,Petrol,450000
+2021,10000,Diesel,950000
+2015,60000,Petrol,400000
+"""
+
+with open("/content/Car Prdecit data .csv", "w") as file:
+    file.write(csv_content)
+print("Car dataset created successfully at /content/Car Prdecit data .csv")
